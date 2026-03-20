@@ -3,7 +3,7 @@
  * Centralized configuration for status codes, messages, and patterns.
  */
 
-// HTTP Status Codes
+
 const HTTP_STATUS = {
     OK: 200,
     CREATED: 201,
