@@ -13,7 +13,7 @@ const envSchema = z.object({
     SENDGRID_FROM_NAME: z.string().default('Patel Properties'),
     OWNER_EMAIL: z.string().email().default('info@digitalmongers.com'),
     MAILGUN_API_KEY: z.string().optional(),
-    MAILGUN_DOMAIN: z.string().optional(),
+    MAILGUN_DOMAIN: z.string().optional(), 
     MAILGUN_HOST: z.string().default('api.mailgun.net'), // 'api.eu.mailgun.net' for EU
 });
 
